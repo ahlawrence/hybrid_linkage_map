@@ -1,8 +1,8 @@
 java -cp ~/.conda/envs/java8/bin/binary+code/bin/ ParentCall2 data= /work/ahl28/QTL_Mapping/lepmap/IM_CS.ped.txt vcfFile = ${PRE}.thinned.vcf removeNonInformative=1 > lm.call
 
 
-lod='35'
-theta='.37'
+lod=''
+theta=''
 
 ./remove_lines.sh bad_lines.txt lm.call
 
