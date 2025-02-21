@@ -1,1 +1,1 @@
-These files are used to create a linkage map using lepmap3 
+These files are used to create a linkage map using lepmap3. There are multiple versions of the scripts. Depending upon how much you trust your reference genome, the forced map version is faster and less downstream processing but requires accurately assembled chromosomes (no major translocations). The normal version is better for when you aren't sure if there are large structural variants between your species as it will split the contigs for you based on recombination events.  
